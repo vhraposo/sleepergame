@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 62.5%;
+}
+
+.container {}
+
+#game-container {
+  width: 30rem;
+  height: 100%;
+  margin-top: 6rem;
+  padding-top: 6rem;
+  background-color: aliceblue;
+}
+
+.imgjs {
+  width: 20rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+  margin-top: 5rem;
+}
+
+#ranking-container {
+  display: none;
+  margin-top: 2rem;
+}
+
+#ranking-container h2 {
+  margin-bottom: 1rem;
+}
+
+#ranking-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#ranking-list li {
+  margin-bottom: 0.5rem;
+}
+
+#back-button {
+  margin-top: 1rem;
+}
